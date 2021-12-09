@@ -5,6 +5,7 @@ import Image from "./components/Image/Image";
 import Explonation from "./components/Explanation/Explanation";
 import Copyright from "./components/Copyright/copyright";
 import "./App.css";
+
 import Explanation from "./components/Explanation/Explanation";
 import CopyRight from "./components/Copyright/copyright";
 
@@ -30,14 +31,14 @@ function App() {
     <div className="App">
       <nav>
         <a
-          href="nasa-photo-of-the-day"
+          href="https://www.calendardate.com/todays.htm"
           target="_blank"
           rel="noopener noreferrer"
         >
           {nasaData.date}
         </a>
         <a
-          href="https://www.calendardate.com/todays.htm"
+          href="https://github.com/Berenika14/nasa-photo-of-the-day/pull/1"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -45,7 +46,7 @@ function App() {
         </a>
       </nav>
       <div>
-        <h1>{nasaData.title}</h1>
+        <h1> {nasaData.title}</h1>
       </div>
       <Image nasaURL={nasaData.url} />
       <Explanation imgExplanation={nasaData.explanation} />

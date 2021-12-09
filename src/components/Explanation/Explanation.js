@@ -1,10 +1,11 @@
 import React, { useState } from "react";
+import "./Explanation.css";
 
 const Explanation = (props) => {
   const { imgExplanation } = props;
   return (
     <div>
-      <p> {imgExplanation}</p>
+      <h3> {imgExplanation}</h3>
     </div>
   );
 };
