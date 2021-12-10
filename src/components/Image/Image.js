@@ -4,8 +4,6 @@ import styled, { keyframes } from "styled-components";
 
 const StyledImage = styled.div`
   border-radius: 20px;
-  border-color: white solid;
-  border-width: 60px;
 `;
 
 const Image = ({ nasaURL }) => {

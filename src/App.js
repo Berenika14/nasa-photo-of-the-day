@@ -1,13 +1,11 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 import { API_KEY, API_URL } from "./Constants";
+import { Button } from "reactstrap";
 import Image from "./components/Image/Image";
-import Explonation from "./components/Explanation/Explanation";
-import Copyright from "./components/Copyright/copyright";
-import "./App.css";
-
 import Explanation from "./components/Explanation/Explanation";
-import CopyRight from "./components/Copyright/copyright";
+import CopyRight from "./components/Copyright/Copyright";
+import "./App.css";
 
 function App() {
   const [nasaData, setNasaData] = useState([]);
@@ -51,6 +49,15 @@ function App() {
       <Image nasaURL={nasaData.url} />
       <Explanation imgExplanation={nasaData.explanation} />
       <CopyRight copyRightOfImg={nasaData.copyright} />
+      {/**
+       * Used reactstrap to create a button at the bottom of the page
+       */}
+      <Button
+        color="primary"
+        href="https://reactstrap.github.io/?path=/story/home-installation--page"
+      >
+        Click to navigate to reactstrap
+      </Button>
     </div>
   );
 }

@@ -38,7 +38,7 @@
   }
 }
 h1 {
-  color: rgb(211, 104, 104);
+  color: red;
   margin-bottom: 1;
 }
 nav {
@@ -51,7 +51,7 @@ nav {
 }
 nav a {
   text-decoration: none;
-  color: rgb(223, 97, 97);
+  color: red;
   font-size: larger;
 }
 a:hover {
