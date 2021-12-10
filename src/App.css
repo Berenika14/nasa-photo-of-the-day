@@ -38,7 +38,7 @@
   }
 }
 h1 {
-  color: red;
+  color: purple;
   margin-bottom: 1;
 }
 nav {
@@ -51,8 +51,9 @@ nav {
 }
 nav a {
   text-decoration: none;
-  color: red;
+  color: purple;
   font-size: larger;
+  font-weight: bold;
 }
 a:hover {
   text-decoration: underline;

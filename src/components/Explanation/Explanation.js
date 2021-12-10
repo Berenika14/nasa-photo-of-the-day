@@ -9,11 +9,12 @@ const kf = keyframes`
 `;
 
 const StyledExplanation = styled.div`
-  color: red;
-  width: 55%;
+  color: purple;
+  width: 56%;
   margin: 0 auto;
+  margin-top: 2em;
   text-align: center;
-  font-style: Italic;
+
   opacity: 0;
   transform: scale(0) rotateZ(180deg);
   animation: ${kf} 0.3s ease-in-out forwards;

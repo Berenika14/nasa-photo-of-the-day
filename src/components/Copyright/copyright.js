@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import styled, { keyframes } from "styled-components";
 
 const StyledCopyright = styled.div`
-  color: red;
+  color: purple;
   font-style: italic;
 `;
 
