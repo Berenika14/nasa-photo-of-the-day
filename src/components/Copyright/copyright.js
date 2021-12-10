@@ -1,12 +1,16 @@
 import React, { useState } from "react";
-import "./Copyright.css";
+import styled, { keyframes } from "styled-components";
+
+const StyledCopyright = styled.div`
+  color: white;
+`;
 
 const CopyRight = (props) => {
   const { copyRightOfImg } = props;
   return (
-    <div>
+    <StyledCopyright>
       <p> Copyright: {copyRightOfImg}</p>
-    </div>
+    </StyledCopyright>
   );
 };
 

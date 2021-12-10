@@ -1,11 +1,18 @@
 import React, { useState, useEffect } from "react";
-import "./Image.css";
+
+import styled, { keyframes } from "styled-components";
+
+const StyledImage = styled.div`
+  border-radius: 20px;
+  border-color: white solid;
+  border-width: 60px;
+`;
 
 const Image = ({ nasaURL }) => {
   return (
-    <div>
+    <StyledImage>
       <img src={nasaURL} alt="Nasa Photo Of The Day" />
-    </div>
+    </StyledImage>
   );
 };
 export default Image;

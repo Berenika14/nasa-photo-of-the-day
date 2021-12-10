@@ -1,12 +1,19 @@
 import React, { useState } from "react";
-import "./Explanation.css";
+import styled, { keyframes } from "styled-components";
+
+const StyledExplanation = styled.div`
+  color: red;
+  width: 55%;
+  margin: 0 auto;
+  text-align: center;
+`;
 
 const Explanation = (props) => {
   const { imgExplanation } = props;
   return (
-    <div>
+    <StyledExplanation>
       <h3> {imgExplanation}</h3>
-    </div>
+    </StyledExplanation>
   );
 };
 
