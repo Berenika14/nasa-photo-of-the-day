@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background-color: black;
 }
 
 .App-logo {
@@ -21,7 +22,7 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: rgb(247, 242, 242);
 }
 
 .App-link {
@@ -35,4 +36,26 @@
   to {
     transform: rotate(360deg);
   }
+}
+h1 {
+  color: purple;
+  margin-bottom: 1;
+}
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+  margin-left: 3em;
+  margin-right: 3em;
+}
+nav a {
+  text-decoration: none;
+  color: purple;
+  font-size: larger;
+  font-weight: bold;
+}
+a:hover {
+  text-decoration: underline;
+  color: white;
 }
